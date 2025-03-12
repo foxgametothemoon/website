@@ -1,0 +1,287 @@
+.gameInfo {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: var(--neon-blue);
+  margin-top: -1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.gameDemo {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(188, 19, 254, 0.5);
+}
+
+.playButtonWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.gameDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.gameDescription h2 {
+  color: var(--neon-pink);
+  margin-bottom: 1rem;
+}
+
+.gameDescription p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid rgba(0, 243, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.statBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.5);
+}
+
+.statNumber {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--neon-green);
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.howToPlay {
+  margin-bottom: 6rem;
+}
+
+.howToPlay h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.instructionsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.instructionCard {
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid rgba(0, 243, 255, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.instructionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+  border-color: rgba(0, 243, 255, 0.5);
+}
+
+.instructionNumber {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 900;
+  opacity: 0.15;
+  color: var(--neon-blue);
+}
+
+.instructionCard h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--neon-green);
+}
+
+.instructionCard p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.gameFeatures {
+  margin-bottom: 6rem;
+}
+
+.gameFeatures h2 {
+  text-align: center;
+  color: var(--neon-purple);
+  margin-bottom: 3rem;
+}
+
+.featuresContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.featureItem {
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid rgba(188, 19, 254, 0.2);
+  transition: all 0.3s ease;
+}
+
+.featureItem:hover {
+  background: rgba(20, 20, 45, 0.6);
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(188, 19, 254, 0.3);
+}
+
+.featureItem h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--neon-pink);
+}
+
+.featureItem p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.technicalSpecs {
+  margin-bottom: 6rem;
+}
+
+.technicalSpecs h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.specsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.specItem {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid rgba(57, 255, 20, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.specItem:hover {
+  background: rgba(20, 20, 45, 0.6);
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+}
+
+.specItem h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--neon-green);
+}
+
+.callToAction {
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 243, 255, 0.1),
+    rgba(188, 19, 254, 0.1)
+  );
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  box-shadow: 0 0 30px rgba(0, 243, 255, 0.2);
+}
+
+.callToAction h2 {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 1024px) {
+  .instructionsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featuresContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .overview {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructionsGrid,
+  .featuresContainer,
+  .specsGrid {
+    grid-template-columns: 1fr;
+  }
+}

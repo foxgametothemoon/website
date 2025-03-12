@@ -1,0 +1,122 @@
+.roadmapPage {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.roadmapHeader {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.roadmapSubtitle {
+  font-size: 1.2rem;
+  color: var(--neon-blue);
+  margin-top: -1rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.roadmapTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.quarter {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr; /* Adjust ratio as needed for quarter and content */
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid var(--neon-blue);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.2);
+}
+
+.quarterHeader {
+  text-align: right;
+  padding-right: 1.5rem;
+  border-right: 2px dashed var(--neon-purple);
+}
+
+.quarterHeader h3 {
+  font-size: 1.8rem;
+  color: var(--neon-purple);
+  margin-bottom: 0.5rem;
+}
+
+.quarterContent {
+  padding-left: 1.5rem;
+}
+
+.quarterContent h4 {
+  font-size: 1.4rem;
+  color: var(--neon-pink);
+  margin-bottom: 1rem;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--starlight);
+}
+
+.taskItem::before {
+  content: "•"; /* Bullet point or you can use a custom icon */
+  position: absolute;
+  left: 0;
+  color: var(--neon-green);
+}
+
+@media (max-width: 768px) {
+  .roadmapHeader {
+    margin-bottom: 4rem;
+  }
+
+  .roadmapTimeline {
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .quarter {
+    grid-template-columns: 1fr; /* Stack quarter header and content */
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .quarterHeader {
+    text-align: left;
+    padding-right: 0;
+    border-right: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .quarterHeader h3 {
+    font-size: 1.6rem;
+  }
+
+  .quarterContent {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,161 @@
+.tokenomicsPage {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tokenomicsHeader {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.tokenomicsSubtitle {
+  font-size: 1.2rem;
+  color: var(--neon-blue);
+  margin-top: -1rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.metricsSection,
+.distributionSection,
+.utilitySection {
+  margin-bottom: 5rem;
+}
+
+.metricsSection h2,
+.distributionSection h2,
+.utilitySection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.metricItem {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(15, 15, 35, 0.5);
+  border: 1px solid var(--neon-green);
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
+  text-align: center;
+}
+
+.metricItem h3 {
+  font-size: 1.2rem;
+  color: var(--neon-green);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.metricItem p {
+  font-size: 1.1rem;
+  color: var(--starlight);
+}
+
+.contractAddress {
+  overflow-wrap: break-word; /* or word-break: break-all; */
+}
+
+.distributionList,
+.utilityList {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.distributionItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px dashed var(--neon-purple);
+  transition: background-color 0.3s ease;
+}
+
+.distributionItem:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+.distributionItem:hover {
+  background-color: rgba(15, 15, 35, 0.7); /* Darken slightly on hover */
+}
+
+.distributionItem span:first-child {
+  font-size: 1.1rem;
+  color: var(--neon-pink);
+}
+
+.distributionItem span:last-child {
+  font-size: 1.1rem;
+  color: var(--neon-blue);
+  font-weight: 600;
+}
+
+.utilityList {
+  margin-top: 2rem;
+}
+
+.utilityItem {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px dashed var(--neon-blue);
+  font-size: 1rem;
+  color: var(--starlight);
+  line-height: 1.7;
+  transition: background-color 0.3s ease;
+}
+
+.utilityItem:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+.utilityItem:hover {
+  background-color: rgba(15, 15, 35, 0.7); /* Darken slightly on hover */
+}
+
+.disclaimerSection {
+  text-align: center;
+  margin-top: 3rem;
+  opacity: 0.7;
+}
+
+.disclaimerText {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .tokenomicsHeader {
+    margin-bottom: 4rem;
+  }
+
+  .metricsGrid {
+    grid-template-columns: 1fr; /* Stack metrics in mobile */
+  }
+
+  .distributionItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .distributionItem span:last-child {
+    margin-left: 0; /* Remove extra margin */
+  }
+}

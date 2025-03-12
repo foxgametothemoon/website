@@ -1,0 +1,28 @@
+.gamePreview,
+.gamePreviewFull {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 243, 255, 0.5); /* Neon blue glow */
+  transition: transform 0.3s ease;
+  width: 100%; /* Make sure it fills its container */
+}
+
+.gamePreview:hover,
+.gamePreviewFull:hover {
+  transform: scale(1.03); /* slight zoom on hover */
+  box-shadow: 0 0 40px rgba(0, 243, 255, 0.7); /* Increased glow on hover */
+}
+
+.gamePreviewFull {
+  /* Styles for the full size preview - can be same as default or adjusted */
+  max-width: 800px; /* Example max width for full size */
+  margin: 0 auto; /* Center if it's meant to be standalone */
+}
+
+.gamePreview img,
+.gamePreviewFull img {
+  display: block; /* prevent extra space below image/video */
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* or contain, depending on desired effect */
+}

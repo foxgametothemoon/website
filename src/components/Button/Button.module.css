@@ -1,0 +1,63 @@
+.button,
+.primaryButton,
+.linkButton {
+  padding: 0.7rem 1.5rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--starlight);
+  background: transparent;
+  border: 2px solid var(--neon-blue);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none; /* for linkButton */
+  display: inline-block; /* for linkButton to behave like button */
+}
+
+.button:hover,
+.primaryButton:hover,
+.linkButton:hover {
+  background-color: var(--neon-blue);
+  color: var(--deep-space);
+  box-shadow: var(--blue-glow);
+  transform: translateY(-2px);
+}
+
+.primaryButton {
+  background-color: var(--neon-blue);
+  color: var(--deep-space);
+}
+
+.primaryButton:hover {
+  background-color: rgba(
+    0,
+    243,
+    255,
+    0.8
+  ); /* Slightly darker neon blue on hover */
+}
+
+.large {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+}
+
+.button:disabled,
+.primaryButton:disabled,
+.linkButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none; /* important for accessibility */
+  box-shadow: none;
+  transform: none;
+}
+
+.button:focus,
+.primaryButton:focus,
+.linkButton:focus {
+  outline: none; /* remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 243, 255, 0.5); /* replace with a neon blue outline */
+}

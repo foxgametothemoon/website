@@ -1,0 +1,75 @@
+.heroSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 6rem 0;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  color: var(--neon-blue);
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.heroImage {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 243, 255, 0.6);
+}
+
+.heroImage img {
+  display: block; /* prevent extra space below image */
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* or contain, depending on desired effect */
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 4rem 0;
+    gap: 3rem;
+  }
+
+  .heroContent {
+    align-items: center; /* center content in mobile view */
+  }
+
+  .heroTitle {
+    font-size: 3rem;
+  }
+
+  .heroSubtitle {
+    max-width: 100%; /* full width for subtitle in mobile */
+  }
+
+  .heroButtons {
+    flex-direction: column; /* stack buttons in mobile */
+    align-items: center;
+  }
+
+  .heroImage {
+    order: -1; /* image appears above text in mobile */
+  }
+}

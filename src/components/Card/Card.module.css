@@ -1,0 +1,34 @@
+.card {
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(15, 15, 35, 0.5); /* Dark background */
+  border: 1px solid var(--neon-blue); /* Neon blue border */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--blue-glow); /* Neon blue glow on hover */
+  border-color: var(--neon-purple); /* Change border on hover if you like */
+}
+
+.icon {
+  /* Styling for icon if you decide to add icons */
+  margin-bottom: 1rem;
+  font-size: 2rem; /* Example icon size */
+  color: var(--neon-green); /* Example icon color */
+}
+
+.cardTitle {
+  color: var(--neon-blue); /* Neon blue title */
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 5px rgba(0, 243, 255, 0.5); /* subtle text shadow */
+}
+
+.cardContent {
+  color: var(--starlight); /* Starlight content text */
+  font-size: 1rem;
+  line-height: 1.6;
+}

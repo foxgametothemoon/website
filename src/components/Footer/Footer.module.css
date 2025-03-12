@@ -1,0 +1,52 @@
+.footer {
+  background-color: var(
+    --space-blue
+  ); /* Slightly lighter than deep space for footer */
+  color: var(--starlight);
+  padding: 2rem 0;
+  border-top: 1px solid var(--neon-blue); /* Neon blue line separating footer from main content */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 2rem; /* Space between footer links */
+}
+
+.footerLink {
+  color: var(--neon-green);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footerLink:hover {
+  color: var(--neon-blue);
+  text-shadow: var(--blue-glow);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

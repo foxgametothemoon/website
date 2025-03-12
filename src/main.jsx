@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 // Import pages
@@ -18,7 +18,7 @@ import Footer from "./components/Footer/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-container">
         <Navbar />
         <main className="main-content">
@@ -38,6 +38,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );

@@ -84,6 +84,18 @@
   box-shadow: var(--green-glow);
 }
 
+/* Hamburger Button */
+.hamburger {
+  display: none; /* Hide by default */
+  cursor: pointer;
+  z-index: 101; /* Ensure it's above other content */
+}
+
+.hamburger img {
+  width: 30px; /* Adjust size as needed */
+  height: 24px;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -98,5 +110,37 @@
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger button on mobile */
+  }
+
+  .navLinks {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background-color: var(--space-blue);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+  .navLinksOpen {
+    transform: translateX(0); /* Slide in the menu */
+  }
+
+  .navLink {
+    font-size: 1.2rem;
+  }
+
+  .playButton {
+    margin-top: 1rem;
   }
 }

@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import styles from "./PlayGame.module.css";
 import NeonEffect from "../../components/NeonEffect/NeonEffect";
+import { Link } from "react-router-dom";
 
 const PlayGame = () => {
-  const gameURL = "https://himanshu495-rada.github.io/fox-game/games/game.html"; // Replace with your actual game URL
+  const gameURL = "https://foxgametothemoon.github.io/game/"; // Replace with your actual game URL
 
   useEffect(() => {
     window.location.href = gameURL;
@@ -19,9 +20,9 @@ const PlayGame = () => {
         automatically, please click the link below:
       </p>
       <p className={styles.fallbackLink}>
-        <a href={gameURL} target="_blank" rel="noopener noreferrer">
+        <Link to={gameURL} target="_blank" >
           Play Game Now
-        </a>
+        </Link>
       </p>
     </div>
   );

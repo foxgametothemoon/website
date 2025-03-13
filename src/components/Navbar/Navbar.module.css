@@ -2,11 +2,13 @@
   background-color: var(--space-blue);
   border-bottom: 1px solid var(--neon-blue);
   height: var(--header-height);
-  position: fixed; /* Fixed navbar at the top */
+  position: fixed;
+  /* Fixed navbar at the top */
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100; /* Ensure it's above other content */
+  z-index: 100;
+  /* Ensure it's above other content */
 }
 
 .container {
@@ -20,12 +22,21 @@
 }
 
 .logo {
-  display: block; /* Make logo a block element */
+  display: block;
+  /* Make logo a block element */
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  /* Make the logo circular */
+  overflow: hidden;
+  /* Ensure the image doesn't overflow the circular container */
 }
 
 .logo img {
-  height: 50px; /* Adjust logo size as needed */
-  display: block; /* Remove extra space below image */
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+  display: block;
 }
 
 .navLinks {
@@ -43,8 +54,10 @@
   font-size: 0.9rem;
   letter-spacing: 1px;
   transition: color 0.3s ease, text-shadow 0.3s ease;
-  position: relative; /* For underline effect */
-  padding: 0.5rem 0; /* Add some vertical padding */
+  position: relative;
+  /* For underline effect */
+  padding: 0.5rem 0;
+  /* Add some vertical padding */
 }
 
 .navLink:hover,
@@ -86,13 +99,16 @@
 
 /* Hamburger Button */
 .hamburger {
-  display: none; /* Hide by default */
+  display: none;
+  /* Hide by default */
   cursor: pointer;
-  z-index: 101; /* Ensure it's above other content */
+  z-index: 101;
+  /* Ensure it's above other content */
 }
 
 .hamburger img {
-  width: 30px; /* Adjust size as needed */
+  width: 30px;
+  /* Adjust size as needed */
   height: 24px;
 }
 
@@ -113,7 +129,8 @@
   }
 
   .hamburger {
-    display: block; /* Show hamburger button on mobile */
+    display: block;
+    /* Show hamburger button on mobile */
   }
 
   .navLinks {
@@ -133,7 +150,8 @@
   }
 
   .navLinksOpen {
-    transform: translateX(0); /* Slide in the menu */
+    transform: translateX(0);
+    /* Slide in the menu */
   }
 
   .navLink {

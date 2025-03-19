@@ -107,7 +107,7 @@ const Home = () => {
             Discord
           </a>
           <a
-            href="https://twitter.com/foxcryptogame"
+            href="https://x.com/FOXGAME2025"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}

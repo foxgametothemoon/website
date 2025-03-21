@@ -29,9 +29,8 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav
-          className={`${styles.navLinks} ${
-            isMobileMenuOpen ? styles.navLinksOpen : ""
-          }`}
+          className={`${styles.navLinks} ${isMobileMenuOpen ? styles.navLinksOpen : ""
+            }`}
         >
           <NavLink to="/" className={styles.navLink} end onClick={toggleMobileMenu}>
             Home
@@ -52,7 +51,7 @@ const Navbar = () => {
             FAQ
           </NavLink>
           <NavLink
-            to="/play"
+            to="https://game.foxgame.space/"
             className={`${styles.navLink} ${styles.playButton}`}
             onClick={toggleMobileMenu}
           >

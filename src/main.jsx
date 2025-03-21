@@ -29,7 +29,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/team" element={<Team />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/play" element={<PlayGame />} />
             <Route
               path="*"
               element={<div className="not-found">Page Not Found</div>}

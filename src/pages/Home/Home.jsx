@@ -33,7 +33,7 @@ const Home = () => {
             future of gaming with our innovative play-to-earn mechanics.
           </p>
           <div className={styles.cta}>
-            <Button primary to="/play">
+            <Button primary to="https://game.foxgame.space/">
               Play Now
             </Button>
             <Button to="/tokenomics">Explore Tokenomics</Button>

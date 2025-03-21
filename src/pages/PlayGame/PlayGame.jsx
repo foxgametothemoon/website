@@ -4,7 +4,7 @@ import NeonEffect from "../../components/NeonEffect/NeonEffect";
 import { Link } from "react-router-dom";
 
 const PlayGame = () => {
-  const gameURL = "https://foxgametothemoon.github.io/game/"; // Replace with your actual game URL
+  const gameURL = "https://game.foxgame.space/"; // Replace with your actual game URL
 
   useEffect(() => {
     window.location.href = gameURL;

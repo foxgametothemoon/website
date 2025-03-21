@@ -18,7 +18,7 @@ const GameInfo = () => {
         <div className={styles.gameDemo}>
           <GamePreview fullSize />
           <div className={styles.playButtonWrapper}>
-            <Button primary to="/play">
+            <Button primary to="https://game.foxgame.space/">
               Play Now
             </Button>
           </div>
@@ -164,7 +164,7 @@ const GameInfo = () => {
 
       <div className={styles.callToAction}>
         <h2>Ready to Start Your Adventure?</h2>
-        <Button primary to="/play" size="large">
+        <Button primary to="https://game.foxgame.space/" size="large">
           Play Now
         </Button>
       </div>

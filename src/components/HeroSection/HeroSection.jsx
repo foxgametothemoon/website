@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./HeroSection.module.css";
 import Button from "../Button/Button"; // Assuming Button component is in the same components folder
 import wallpaper from "../../assets/wallpaper.jpg"
-import logo from "../../assets/logo.jpg"
 
 const HeroSection = ({ title, subtitle }) => {
   return (
@@ -11,7 +10,7 @@ const HeroSection = ({ title, subtitle }) => {
         <h1 className={styles.heroTitle}>{title}</h1>
         <p className={styles.heroSubtitle}>{subtitle}</p>
         <div className={styles.heroButtons}>
-          <Button primary to="/play" size="large">
+          <Button primary to="https://game.foxgame.space/" size="large">
             Play Now
           </Button>
           <Button to="/game-info">Learn More</Button>

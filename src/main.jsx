@@ -10,7 +10,8 @@ import Tokenomics from "./pages/Tokenomics/Tokenomics";
 import Roadmap from "./pages/Roadmap/Roadmap";
 import Team from "./pages/Team/Team";
 import FAQ from "./pages/FAQ/FAQ";
-import PlayGame from "./pages/PlayGame/PlayGame";
+import Privacy from "./pages/Privacy/Privacy";
+import Terms from "./pages/Terms/Terms";
 
 // Import components
 import Navbar from "./components/Navbar/Navbar";
@@ -29,6 +30,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/team" element={<Team />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="terms-of-service" element={<Terms />} />
             <Route
               path="*"
               element={<div className="not-found">Page Not Found</div>}

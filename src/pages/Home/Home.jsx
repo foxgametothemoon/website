@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import GamePreview from "../../components/GamePreview/GamePreview";
@@ -78,9 +77,8 @@ const Home = () => {
             <h2>$FOX GAME Token</h2>
           </NeonEffect>
           <p>
-            Our native cryptocurrency powers the entire ecosystem. Use $CHERRY
-            to upgrade your fox, buy special items, and participate in
-            governance.
+            Our native cryptocurrency powers the entire ecosystem. Use $FOXG to
+            upgrade your fox, buy special items, and participate in governance.
           </p>
           <Button to="/tokenomics">Token Details</Button>
         </div>
@@ -98,14 +96,14 @@ const Home = () => {
           in exclusive events.
         </p>
         <div className={styles.socialLinks}>
-          <a
+          {/* <a
             href="https://discord.gg/foxcrypto"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}
           >
             Discord
-          </a>
+          </a> */}
           <a
             href="https://x.com/FOXGAME2025"
             target="_blank"

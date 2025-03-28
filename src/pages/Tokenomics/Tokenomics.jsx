@@ -4,10 +4,10 @@ import NeonEffect from "../../components/NeonEffect/NeonEffect";
 
 const Tokenomics = () => {
   const tokenMetrics = {
-    tokenName: "$CHERRY",
+    tokenName: "$FOXG",
     totalSupply: "1,000,000,000",
-    blockchain: "Ethereum (Layer-2)",
-    contractAddress: "0x...", // Replace with actual contract address
+    blockchain: "Solana",
+    contractAddress: "mntmgzA6T7AT3xVwPwAm86MVgV2G6W9rEh1E1bXoh3n", // Replace with actual contract address
   };
 
   const distributionData = [
@@ -30,7 +30,7 @@ const Tokenomics = () => {
     <div className={styles.tokenomicsPage}>
       <header className={styles.tokenomicsHeader}>
         <NeonEffect>
-          <h1>$CHERRY Tokenomics</h1>
+          <h1>$FOXG Tokenomics</h1>
         </NeonEffect>
         <p className={styles.tokenomicsSubtitle}>
           Understanding Our Token Ecosystem
@@ -96,7 +96,7 @@ const Tokenomics = () => {
       <section className={styles.disclaimerSection}>
         <p className={styles.disclaimerText}>
           <small>
-            Disclaimer: $CHERRY token and Fox Crypto Game are subject to market
+            Disclaimer: $FOXG token and Fox Crypto Game are subject to market
             risks and regulatory changes. Please do your own research before
             participating.
           </small>

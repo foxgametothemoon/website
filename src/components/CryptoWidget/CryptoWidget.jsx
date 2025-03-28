@@ -9,17 +9,17 @@ const CryptoWidget = () => {
         <span className={styles.cryptoSymbol}>/USD</span>
       </div>
       <div className={styles.priceDisplay}>
-        <span className={styles.currentPrice}>$0.1250</span>
-        <span className={styles.priceChange}>+2.3%</span>
+        <span className={styles.currentPrice}>$0</span>
+        <span className={styles.priceChange}>+0%</span>
       </div>
       <div className={styles.marketStats}>
         <div className={styles.stat}>
           <span className={styles.statLabel}>High 24H:</span>
-          <span className={styles.statValue}>$0.1285</span>
+          <span className={styles.statValue}>$0</span>
         </div>
         <div className={styles.stat}>
           <span className={styles.statLabel}>Low 24H:</span>
-          <span className={styles.statValue}>$0.1220</span>
+          <span className={styles.statValue}>$0</span>
         </div>
       </div>
     </div>

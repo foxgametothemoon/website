@@ -43,7 +43,7 @@ const GameInfo = () => {
             </div>
             <div className={styles.statBox}>
               <span className={styles.statNumber}>5M+</span>
-              <span className={styles.statLabel}>$CHERRY Earned</span>
+              <span className={styles.statLabel}>$FOXG Earned</span>
             </div>
             <div className={styles.statBox}>
               <span className={styles.statNumber}>30+</span>
@@ -62,8 +62,7 @@ const GameInfo = () => {
             <div className={styles.instructionNumber}>01</div>
             <h3>Connect Wallet</h3>
             <p>
-              Link your crypto wallet to the game to start earning $CHERRY
-              tokens.
+              Link your crypto wallet to the game to start earning $FOXG tokens.
             </p>
           </div>
           <div className={styles.instructionCard}>
@@ -86,7 +85,7 @@ const GameInfo = () => {
             <div className={styles.instructionNumber}>04</div>
             <h3>Earn Rewards</h3>
             <p>
-              Convert your in-game cherries to $CHERRY tokens and trade or stake
+              Convert your in-game cherries to $FOXG tokens and trade or stake
               them.
             </p>
           </div>
@@ -149,15 +148,15 @@ const GameInfo = () => {
           </div>
           <div className={styles.specItem}>
             <h3>Blockchain</h3>
-            <p>Ethereum & Layer-2 Solutions</p>
+            <p>Solana Blockchain</p>
           </div>
           <div className={styles.specItem}>
             <h3>Smart Contracts</h3>
-            <p>ERC-20 & ERC-721 Compatible</p>
+            <p>SPL Token Standard</p>
           </div>
           <div className={styles.specItem}>
             <h3>Wallet Support</h3>
-            <p>MetaMask, Trust Wallet, WalletConnect</p>
+            <p>Phantom</p>
           </div>
         </div>
       </section>

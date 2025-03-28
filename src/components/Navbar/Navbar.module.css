@@ -23,13 +23,11 @@
 
 .logo {
   display: block;
-  /* Make logo a block element */
   width: 78px;
   height: 78px;
   border-radius: 50%;
-  /* Make the logo circular */
   overflow: hidden;
-  /* Ensure the image doesn't overflow the circular container */
+  flex-shrink: 0;
 }
 
 .logo img {
@@ -120,6 +118,8 @@
 
   .logo {
     margin-bottom: 1rem;
+    width: 64px;
+    height: 64px;
   }
 
   .navLinks {

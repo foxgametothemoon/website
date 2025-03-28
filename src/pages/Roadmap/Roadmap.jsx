@@ -5,7 +5,7 @@ import NeonEffect from "../../components/NeonEffect/NeonEffect";
 const Roadmap = () => {
   const roadmapData = [
     {
-      quarter: "Q1 2024",
+      quarter: "Q1 2025",
       title: "Foundation & Game Development",
       tasks: [
         "Project concept finalization",
@@ -15,17 +15,17 @@ const Roadmap = () => {
       ],
     },
     {
-      quarter: "Q2 2024",
+      quarter: "Q2 2025",
       title: "Private Testing & Token Launch",
       tasks: [
         "Private alpha testing of the game",
-        "$CHERRY token smart contract development",
+        "$FOXG token smart contract development",
         "Token private sale and initial DEX offering (IDO)",
         "Community building and marketing ramp-up",
       ],
     },
     {
-      quarter: "Q3 2024",
+      quarter: "Q3 2025",
       title: "Public Game Launch & NFT Release",
       tasks: [
         "Public launch of Fox Crypto Game (Beta)",
@@ -35,7 +35,7 @@ const Roadmap = () => {
       ],
     },
     {
-      quarter: "Q4 2024",
+      quarter: "Q4 2025",
       title: "Expansion & Features Enhancement",
       tasks: [
         "Game expansion with new levels and challenges",
@@ -45,7 +45,7 @@ const Roadmap = () => {
       ],
     },
     {
-      quarter: "Q1 2025",
+      quarter: "Q1 2026",
       title: "Multiplayer & Metaverse Integration",
       tasks: [
         "Launch of multiplayer game mode (races, battles)",

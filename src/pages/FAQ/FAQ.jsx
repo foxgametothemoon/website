@@ -7,7 +7,7 @@ const FAQ = () => {
     {
       question: "What is Fox Crypto Game?",
       answer:
-        "Fox Crypto Game is a play-to-earn blockchain game where players guide a fox to collect cherries and earn $CHERRY tokens. It combines fun gameplay with crypto rewards.",
+        "Fox Crypto Game is a play-to-earn blockchain game where players guide a fox to collect cherries and earn $FOXG tokens. It combines fun gameplay with crypto rewards.",
     },
     {
       question: "How do I start playing?",
@@ -15,9 +15,9 @@ const FAQ = () => {
         "To start playing, connect your crypto wallet to our platform, choose your fox character, and dive into the neon forest to collect cherries!",
     },
     {
-      question: "What is $CHERRY token?",
+      question: "What is $FOXG token?",
       answer:
-        "$CHERRY is the native cryptocurrency of Fox Crypto Game. You can earn it by playing, and use it to upgrade your fox, buy NFTs, and participate in game governance.",
+        "$FOXG is the native cryptocurrency of Fox Crypto Game. You can earn it by playing, and use it to upgrade your fox, buy NFTs, and participate in game governance.",
     },
     {
       question: "What are NFT Foxes?",
@@ -27,22 +27,22 @@ const FAQ = () => {
     {
       question: "How do I earn money?",
       answer:
-        "You earn money by collecting cherries in the game, which can be converted to $CHERRY tokens. You can also earn through daily challenges, leaderboards, and participating in seasonal events.",
+        "You earn money by collecting cherries in the game, which can be converted to $FOXG tokens. You can also earn through daily challenges, leaderboards, and participating in seasonal events.",
     },
     {
       question: "What blockchain is the game on?",
       answer:
-        "Fox Crypto Game is initially built on the Ethereum blockchain and utilizes Layer-2 solutions for faster and cheaper transactions.",
+        "Fox Crypto Game is initially built on the Solana blockchain and utilizes Layer-2 solutions for faster and cheaper transactions.",
     },
     {
-      question: "Where can I buy $CHERRY tokens?",
+      question: "Where can I buy $FOXG tokens?",
       answer:
-        "Currently, $CHERRY tokens can be earned by playing the game. Information on where to buy them on exchanges will be announced soon.",
+        "Currently, $FOXG tokens can be earned by playing the game. Information on where to buy them on exchanges will be announced soon.",
     },
     {
       question: "How can I contact support?",
       answer:
-        "For support inquiries, please visit our Discord channel or email our support team at support@foxcryptogame.com.",
+        "For support inquiries, please visit our Discord channel or email our support team at foxgametothemoon@gmail.com.",
     },
   ];
 

@@ -29,25 +29,59 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav
-          className={`${styles.navLinks} ${isMobileMenuOpen ? styles.navLinksOpen : ""
-            }`}
+          className={`${styles.navLinks} ${
+            isMobileMenuOpen ? styles.navLinksOpen : ""
+          }`}
         >
-          <NavLink to="/" className={styles.navLink} end onClick={toggleMobileMenu}>
+          <NavLink
+            to="/"
+            className={styles.navLink}
+            end
+            onClick={toggleMobileMenu}
+          >
             Home
           </NavLink>
-          <NavLink to="/game-info" className={styles.navLink} onClick={toggleMobileMenu}>
+          <NavLink
+            to="/game-info"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+          >
             Game Info
           </NavLink>
-          <NavLink to="/tokenomics" className={styles.navLink} onClick={toggleMobileMenu}>
+          <NavLink
+            to="/tokenomics"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+          >
             Tokenomics
           </NavLink>
-          <NavLink to="/roadmap" className={styles.navLink} onClick={toggleMobileMenu}>
+          <NavLink
+            to="/roadmap"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+          >
             Roadmap
           </NavLink>
-          <NavLink to="/team" className={styles.navLink} onClick={toggleMobileMenu}>
+          {/* <NavLink
+            to="/team"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+          >
             Team
-          </NavLink>
-          <NavLink to="/faq" className={styles.navLink} onClick={toggleMobileMenu}>
+          </NavLink> */}
+          <a
+            href="/assets/litepaper.pdf"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+            download
+          >
+            LitePaper
+          </a>
+          <NavLink
+            to="/faq"
+            className={styles.navLink}
+            onClick={toggleMobileMenu}
+          >
             FAQ
           </NavLink>
           <NavLink

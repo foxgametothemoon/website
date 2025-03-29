@@ -1,9 +1,12 @@
 .cryptoWidget {
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(15, 15, 35, 0.7); /* Slightly more opaque background */
-  border: 1px solid var(--neon-purple); /* Neon purple border */
-  box-shadow: 0 0 20px rgba(188, 19, 254, 0.3); /* Purple glow */
+  background: rgba(15, 15, 35, 0.7);
+  /* Slightly more opaque background */
+  border: 1px solid var(--neon-purple);
+  /* Neon purple border */
+  box-shadow: 0 0 20px rgba(188, 19, 254, 0.3);
+  /* Purple glow */
   color: var(--starlight);
   font-family: var(--font-body);
   display: flex;
@@ -21,33 +24,46 @@
 .cryptoName {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--neon-pink); /* Neon pink for crypto name */
+  color: var(--neon-pink);
+  /* Neon pink for crypto name */
   text-shadow: var(--pink-glow);
 }
 
 .cryptoSymbol {
   font-size: 0.9rem;
-  color: var(--neon-blue); /* Neon blue for symbol */
+  color: var(--neon-blue);
+  /* Neon blue for symbol */
   opacity: 0.8;
 }
 
 .priceDisplay {
   display: flex;
-  align-items: baseline; /* Align price and change nicely */
+  align-items: baseline;
+  /* Align price and change nicely */
 }
 
 .currentPrice {
   font-size: 2rem;
   font-family: var(--font-heading);
-  color: var(--neon-green); /* Neon green for current price */
+  color: var(--neon-green);
+  /* Neon green for current price */
   margin-right: 0.5rem;
   text-shadow: var(--green-glow);
 }
 
 .priceChange {
   font-size: 1rem;
-  color: var(--neon-green); /* Neon green for price change */
+  color: var(--neon-green);
+  /* Neon green for price change */
   opacity: 0.9;
+}
+
+.launchMsg {
+  font-size: 2rem;
+  color: var(--neon-blue);
+  opacity: 0.8;
+  margin-left: 1rem;
+  text-shadow: var(--blue-glow);
 }
 
 .marketStats {
@@ -69,5 +85,6 @@
 
 .statValue {
   font-weight: 500;
-  color: var(--neon-blue); /* Neon blue for stat values */
+  color: var(--neon-blue);
+  /* Neon blue for stat values */
 }

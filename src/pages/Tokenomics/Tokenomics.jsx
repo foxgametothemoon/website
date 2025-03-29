@@ -56,12 +56,12 @@ const Tokenomics = () => {
             <h3>Blockchain</h3>
             <p>{tokenMetrics.blockchain}</p>
           </div>
-          <div className={styles.metricItem}>
+          {/* <div className={styles.metricItem}>
             <h3>Contract Address</h3>
             <p className={styles.contractAddress}>
               {tokenMetrics.contractAddress}
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
 

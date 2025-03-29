@@ -11,6 +11,7 @@ const CryptoWidget = () => {
       <div className={styles.priceDisplay}>
         <span className={styles.currentPrice}>$0</span>
         <span className={styles.priceChange}>+0%</span>
+        <span className={styles.launchMsg}>COMING SOON</span>
       </div>
       <div className={styles.marketStats}>
         <div className={styles.stat}>

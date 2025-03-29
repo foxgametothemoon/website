@@ -113,7 +113,7 @@ const Home = () => {
             Twitter
           </a>
           <a
-            href="https://t.me/foxcryptogame"
+            href="https://t.me/FOXGAME2025"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}

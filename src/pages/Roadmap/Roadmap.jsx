@@ -5,55 +5,55 @@ import NeonEffect from "../../components/NeonEffect/NeonEffect";
 const Roadmap = () => {
   const roadmapData = [
     {
-      quarter: "Q1 2025",
-      title: "Foundation & Game Development",
-      tasks: [
-        "Project concept finalization",
-        "Core game mechanics development",
-        "Team formation and initial funding",
-        "Website and basic UI design",
-      ],
-    },
-    {
       quarter: "Q2 2025",
-      title: "Private Testing & Token Launch",
+      title: "Initial Launch",
       tasks: [
-        "Private alpha testing of the game",
-        "$FOXG token smart contract development",
-        "Token private sale and initial DEX offering (IDO)",
-        "Community building and marketing ramp-up",
+        "Website & Initial Launch",
+        "Token Generation Event ($FOXG)",
+        "Smart Contract Deployment",
+        "Airdrop & Referral Campaign",
       ],
     },
     {
       quarter: "Q3 2025",
-      title: "Public Game Launch & NFT Release",
+      title: "Development Phase",
       tasks: [
-        "Public launch of Fox Crypto Game (Beta)",
-        "Release of Genesis NFT Fox collection",
-        "Play-to-earn mechanics implementation",
-        "Community governance setup",
+        "Beta Game Release",
+        "NFT Collection Launch",
+        "Staking & Reward Machnism Activation",
+        "Initial CEX/DEX Listings",
       ],
     },
     {
       quarter: "Q4 2025",
-      title: "Expansion & Features Enhancement",
+      title: "Growth & Expansion",
       tasks: [
-        "Game expansion with new levels and challenges",
-        "Implementation of NFT marketplace",
-        "Introduction of daily quests and leaderboards",
-        "Partnerships and cross-promotions",
+        "Full Game Release",
+        "Partnership Announcements",
+        "Marketing & Community Expansion",
+        "Cross-Chain Integration Exploration",
       ],
     },
     {
       quarter: "Q1 2026",
-      title: "Multiplayer & Metaverse Integration",
+      title: "Scaling UP",
       tasks: [
-        "Launch of multiplayer game mode (races, battles)",
-        "Metaverse integration and virtual land exploration",
-        "Mobile game version development",
-        "Esports and competitive gaming initiatives",
+        "Esports & Competitive Gaming Features",
+        "DAO Governance Launch",
+        "Mobile App Release",
+        "Further Exchange Listings",
       ],
     },
+    // {
+    //   quarter: "Q1 2026",
+    //   title: "Multiplayer & Metaverse Integration",
+    //   tasks: [
+    //     "Launch of multiplayer game mode (races, battles)",
+    //     "Metaverse integration and virtual land exploration",
+    //     "Mobile game version development",
+    //     "Esports and competitive gaming initiatives",
+    //   ],
+    // },
   ];
 
   return (

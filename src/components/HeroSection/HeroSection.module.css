@@ -25,6 +25,13 @@
   max-width: 500px;
 }
 
+.heroCA {
+  font-size: 1.5rem;
+  color: var(--neon-green);
+  line-height: 1.6;
+  max-width: 500px;
+}
+
 .heroButtons {
   display: flex;
   gap: 1.5rem;
@@ -38,10 +45,12 @@
 }
 
 .heroImage img {
-  display: block; /* prevent extra space below image */
+  display: block;
+  /* prevent extra space below image */
   width: 100%;
   height: auto;
-  object-fit: cover; /* or contain, depending on desired effect */
+  object-fit: cover;
+  /* or contain, depending on desired effect */
 }
 
 @media (max-width: 768px) {
@@ -53,7 +62,8 @@
   }
 
   .heroContent {
-    align-items: center; /* center content in mobile view */
+    align-items: center;
+    /* center content in mobile view */
   }
 
   .heroTitle {
@@ -61,15 +71,18 @@
   }
 
   .heroSubtitle {
-    max-width: 100%; /* full width for subtitle in mobile */
+    max-width: 100%;
+    /* full width for subtitle in mobile */
   }
 
   .heroButtons {
-    flex-direction: column; /* stack buttons in mobile */
+    flex-direction: column;
+    /* stack buttons in mobile */
     align-items: center;
   }
 
   .heroImage {
-    order: -1; /* image appears above text in mobile */
+    order: -1;
+    /* image appears above text in mobile */
   }
 }

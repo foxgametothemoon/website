@@ -29,9 +29,8 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav
-          className={`${styles.navLinks} ${
-            isMobileMenuOpen ? styles.navLinksOpen : ""
-          }`}
+          className={`${styles.navLinks} ${isMobileMenuOpen ? styles.navLinksOpen : ""
+            }`}
         >
           <NavLink
             to="/"

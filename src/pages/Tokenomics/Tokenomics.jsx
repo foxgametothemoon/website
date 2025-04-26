@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Tokenomics.module.css";
 import NeonEffect from "../../components/NeonEffect/NeonEffect";
+import copyIcon from "../../assets/copy.svg"
 
 const Tokenomics = () => {
   const tokenMetrics = {
     tokenName: "$FOXG",
     totalSupply: "1,000,000,000",
     blockchain: "Solana",
-    contractAddress: "mntmgzA6T7AT3xVwPwAm86MVgV2G6W9rEh1E1bXoh3n", // Replace with actual contract address
+    contractAddress: "fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm", // Replace with actual contract address
   };
 
   const distributionData = [
@@ -56,12 +57,26 @@ const Tokenomics = () => {
             <h3>Blockchain</h3>
             <p>{tokenMetrics.blockchain}</p>
           </div>
-          {/* <div className={styles.metricItem}>
+          <div className={styles.metricItem}>
             <h3>Contract Address</h3>
             <p className={styles.contractAddress}>
               {tokenMetrics.contractAddress}
+              <img
+                src={copyIcon}
+                alt="Copy icon"
+                width={20}
+                height={20}
+                style={{ marginLeft: "5px", cursor: "pointer" }}
+                onClick={async () => {
+                  await navigator.clipboard.writeText(
+                    tokenMetrics.contractAddress
+                  );
+                  alert("Copied to clipboard!");
+                }}
+                className={styles.copyIcon}
+              />
             </p>
-          </div> */}
+          </div>
         </div>
       </section>
 

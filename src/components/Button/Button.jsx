@@ -20,6 +20,8 @@ const Button = ({
       <Link
         to={to}
         className={`${buttonClass} ${sizeClass} ${styles.linkButton}`}
+        target="_blank"
+        rel="noopener noreferrer"
         {...props}
       >
         {children}

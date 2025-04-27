@@ -10,15 +10,15 @@ const HeroSection = ({ title, subtitle }) => {
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>{title}</h1>
         <p className={styles.heroSubtitle}>{subtitle}</p>
-        <p className={styles.heroCA}>Solana CA: fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm<img src={copy} alt="Copy icon" style={{ marginTop: "5px", cursor: 'pointer' }} width={30} height={30} onClick={async () => {
-          await navigator.clipboard.writeText("fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm");
+        <p className={styles.heroCA}>Solana CA: DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump<img src={copy} alt="Copy icon" style={{ marginTop: "5px", cursor: 'pointer' }} width={30} height={30} onClick={async () => {
+          await navigator.clipboard.writeText("DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump");
           alert("Copied to clipboard!")
         }} /></p>
         <div className={styles.heroButtons}>
           <Button primary to="https://pump.fun/coin/DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump" size="large">
             Buy Now
           </Button>
-          <Button to="https://solscan.io/token/fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm">Solana Scan</Button>
+          <Button to="https://solscan.io/token/DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump">Solana Scan</Button>
         </div>
       </div>
       <div className={styles.heroImage}>

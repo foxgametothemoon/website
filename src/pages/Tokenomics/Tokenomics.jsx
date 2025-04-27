@@ -8,7 +8,7 @@ const Tokenomics = () => {
     tokenName: "$FOXG",
     totalSupply: "1,000,000,000",
     blockchain: "Solana",
-    contractAddress: "fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm", // Replace with actual contract address
+    contractAddress: "DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump", // Replace with actual contract address
   };
 
   const distributionData = [

@@ -15,7 +15,7 @@ const HeroSection = ({ title, subtitle }) => {
           alert("Copied to clipboard!")
         }} /></p>
         <div className={styles.heroButtons}>
-          <Button primary to="https://dexscreener.com/solana/fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm" size="large">
+          <Button primary to="https://pump.fun/coin/DjdvrLxav4gUJsrMrdfPNBsUwRwEFqGSHqy9tiFYpump" size="large">
             Buy Now
           </Button>
           <Button to="https://solscan.io/token/fox93H6QKgcyTnUHMRVoV1yN9ayXkK1ibRfDgohx7Gm">Solana Scan</Button>
